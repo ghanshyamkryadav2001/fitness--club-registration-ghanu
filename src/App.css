@@ -1,0 +1,42 @@
+body{
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-image: url('./bc.jpg');
+  background-size: 100% 100%;
+}
+.main{
+  
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* width: 50%; */
+  /* background-color: brown; */
+  /* background-size: auto; */
+  /* background-color: blueviolet; */
+}
+h2{
+  color: white;
+}
+.item{
+  /* display: flex; */
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  margin-left: 35%;
+  /* left: 50px; */
+  /* padding:50%; */
+}
+.list{
+  background-color: aliceblue;
+  color: black;
+  width: 70%;
+  margin: 0% auto;
+
+  /* width: 35%; */
+}
+table,td,th{
+  border: 1px solid black;
+}
